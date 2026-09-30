@@ -1,0 +1,27 @@
+{
+  "dataset": "Prepared source snapshots under seed; not synthetic events",
+  "local_accounts": [
+    {
+      "user": "pavel",
+      "password": null
+    },
+    {
+      "user": "anya",
+      "password": null
+    }
+  ],
+  "production_auth": "Real MAX accounts; local demo endpoint disabled",
+  "id_selection": "Read current IDs from /api/v1/meta and /api/v1/events; no hardcoded expiring event IDs",
+  "queries": [
+    "бесплатно",
+    "стенап до 3000",
+    "хочу в музей",
+    "нас 5 человек мы хотим сходить на концерт в Краснодаре",
+    "хочу на рэп концерт"
+  ],
+  "selection_size": [
+    2,
+    5
+  ],
+  "expected_behaviour": "See DATA-API.yaml; exact results retain hard constraints; alternatives are separated"
+}

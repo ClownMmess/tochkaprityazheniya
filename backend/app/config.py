@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     public_app_url: str = "http://localhost:8080"
     llm_base_url: str = "http://host.docker.internal:11434/v1"
     llm_model: str = "qwen2.5:7b"
-    llm_enabled: bool = True
+    llm_enabled: bool = False
     llm_timeout_seconds: int = 25
     catalog_refresh_enabled: bool = True
     catalog_refresh_seconds: int = Field(default=21600,ge=300,le=604800)

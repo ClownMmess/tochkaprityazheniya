@@ -1,0 +1,521 @@
+schema_version: '1.0'
+schema_note: 'Team-defined schema: PDF lists fields but provides no machine template.
+  Adapt to organizer template if supplied.'
+solution: Точка притяжения
+release_version: 1.3.2
+deployment_status: requires_public_url_and_MAX_verification
+base_url: https://YOUR_DOMAIN
+openapi: openapi.json
+test_data: review-data.json
+roles:
+  anonymous: No credentials
+  reviewer_a: User MAX account, fresh initData -> Bearer JWT (1 hour)
+  reviewer_b: Second MAX account for UI group scenario; obtain own JWT by same flow
+credentials_policy: No live secrets in source. Required credentials are sent to judges
+  via the closed technical submission only.
+checks:
+- id: health
+  required: true
+  method: GET
+  path: /health
+  role: anonymous
+  request:
+    path_parameters: {}
+    query: {}
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - status
+    - database
+    assertions:
+    - status == ok
+    - database == ok
+- id: runtime
+  required: true
+  method: GET
+  path: /api/v1/runtime
+  role: anonymous
+  request:
+    path_parameters: {}
+    query: {}
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - catalog_version
+    - demo_mode
+    - actual_occurrences
+    assertions:
+    - catalog_version == 1.3.2
+    - demo_mode == false in production
+- id: meta
+  required: true
+  method: GET
+  path: /api/v1/meta
+  role: anonymous
+  request:
+    path_parameters: {}
+    query: {}
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - cities
+    - age_groups
+    - interests
+    - categories
+    assertions: []
+  capture:
+    AGE_ID: age_groups[-1].id
+    INTEREST_ID: interests[slug=music].id
+- id: catalog
+  required: true
+  method: GET
+  path: /api/v1/events
+  role: anonymous
+  request:
+    path_parameters: {}
+    query:
+      city: krd
+      page_size: 5
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - items
+    - total
+    - page
+    - page_size
+    assertions:
+    - At least two distinct events must exist for group scenario; otherwise select
+      msk and document the reason
+  capture:
+    ID1: items[0].occurrence_id
+    ID2: items[1].occurrence_id
+- id: free
+  required: true
+  method: GET
+  path: /api/v1/events
+  role: anonymous
+  request:
+    path_parameters: {}
+    query:
+      city: krd
+      is_free: true
+      page_size: 100
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - items
+    - total
+    assertions:
+    - 'For every item: is_free == true and price_min == 0 and price_max == 0'
+    - Follow all pages when total > page_size
+- id: budget
+  required: true
+  method: GET
+  path: /api/v1/events
+  role: anonymous
+  request:
+    path_parameters: {}
+    query:
+      city: krd
+      price_max: 1000
+      page_size: 100
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - items
+    assertions:
+    - Every item has known price_min <= 1000; this is the from-price filter
+- id: natural
+  required: true
+  method: POST
+  path: /api/v1/search/natural
+  role: anonymous
+  request:
+    path_parameters: {}
+    query: {}
+    headers:
+      Accept: application/json
+      Content-Type: application/json
+    body:
+      text: нас 5 человек мы хотим сходить на концерт в Краснодаре
+      city: msk
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - intent
+    - results
+    - total
+    - relaxations
+    assertions:
+    - intent.city == krd
+    - intent.party_size == 5
+    - Every exact result is a concert in krd; alternatives are separate
+- id: invalid_filter
+  required: true
+  method: GET
+  path: /api/v1/events
+  role: anonymous
+  request:
+    path_parameters: {}
+    query:
+      price_max: -1
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 422
+    content_type: application/json
+    required_fields:
+    - error.code
+    - error.message
+    - error.request_id
+    - error.details
+    assertions: []
+- id: auth_required
+  required: true
+  method: GET
+  path: /api/v1/me/preferences
+  role: anonymous
+  request:
+    path_parameters: {}
+    query: {}
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 401
+    content_type: application/json
+    required_fields:
+    - error.code
+    assertions: []
+- id: max_auth
+  required: true
+  method: POST
+  path: /api/v1/auth/max
+  role: anonymous
+  request:
+    path_parameters: {}
+    query: {}
+    headers:
+      Accept: application/json
+      Content-Type: application/json
+    body:
+      init_data: ${REVIEWER_A_MAX_INIT_DATA}
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - access_token
+    - token_type
+    - expires_in
+    - user
+    assertions:
+    - Use fresh signed initData from MAX for the configured bot; not a bot token
+  capture:
+    REVIEWER_A_TOKEN: access_token
+- id: preferences
+  required: true
+  method: PUT
+  path: /api/v1/me/preferences
+  role: reviewer_a
+  request:
+    path_parameters: {}
+    query: {}
+    headers:
+      Accept: application/json
+      Content-Type: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+    body:
+      home_city: krd
+      age_group_id: ${AGE_ID}
+      interest_ids:
+      - ${INTEREST_ID}
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - home_city
+    - interest_ids
+    assertions:
+    - Saved city and interest match request
+- id: detail
+  required: true
+  method: GET
+  path: /api/v1/occurrences/${ID1}
+  role: anonymous
+  request:
+    path_parameters:
+      ID1: ${ID1}
+    query: {}
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - title
+    - source
+    - occurrences
+    - match
+    - image_url
+    assertions: []
+- id: create_choice
+  required: true
+  method: POST
+  path: /api/v1/group-choices
+  role: reviewer_a
+  request:
+    path_parameters: {}
+    query: {}
+    headers:
+      Accept: application/json
+      Content-Type: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+    body:
+      title: Выбор для проверки
+      occurrence_ids:
+      - ${ID1}
+      - ${ID2}
+  expected:
+    status_codes:
+    - 201
+    content_type: application/json
+    required_fields:
+    - public_token
+    - events
+    - results_visible
+    - my_votes
+    assertions:
+    - results_visible == false
+    - All votes are null
+  capture:
+    CHOICE: public_token
+- id: vote_one
+  required: true
+  method: PUT
+  path: /api/v1/group-choices/${CHOICE}/vote
+  role: reviewer_a
+  request:
+    path_parameters:
+      CHOICE: ${CHOICE}
+    query: {}
+    headers:
+      Accept: application/json
+      Content-Type: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+    body:
+      occurrence_id: ${ID1}
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - my_votes
+    - results_visible
+    - events
+    assertions:
+    - ID1 in my_votes
+    - results_visible == true
+- id: vote_two
+  required: true
+  method: PUT
+  path: /api/v1/group-choices/${CHOICE}/vote
+  role: reviewer_a
+  request:
+    path_parameters:
+      CHOICE: ${CHOICE}
+    query: {}
+    headers:
+      Accept: application/json
+      Content-Type: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+    body:
+      occurrence_id: ${ID2}
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - my_votes
+    assertions:
+    - Both ID1 and ID2 in my_votes
+- id: vote_repeat
+  required: true
+  method: PUT
+  path: /api/v1/group-choices/${CHOICE}/vote
+  role: reviewer_a
+  request:
+    path_parameters:
+      CHOICE: ${CHOICE}
+    query: {}
+    headers:
+      Accept: application/json
+      Content-Type: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+    body:
+      occurrence_id: ${ID2}
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - my_votes
+    - total_votes
+    assertions:
+    - Repeated PUT does not add another vote
+- id: hidden_for_other
+  required: true
+  method: GET
+  path: /api/v1/group-choices/${CHOICE}
+  role: anonymous
+  request:
+    path_parameters:
+      CHOICE: ${CHOICE}
+    query: {}
+    headers:
+      Accept: application/json
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - events
+    - total_votes
+    - results_visible
+    assertions:
+    - Anonymous reader has results_visible == false, total_votes == null, each votes
+      == null
+- id: cancel_one
+  required: true
+  method: DELETE
+  path: /api/v1/group-choices/${CHOICE}/votes/${ID1}
+  role: reviewer_a
+  request:
+    path_parameters:
+      CHOICE: ${CHOICE}
+      ID1: ${ID1}
+    query: {}
+    headers:
+      Accept: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - my_votes
+    assertions:
+    - ID1 absent and ID2 present
+- id: cancel_all
+  required: true
+  method: DELETE
+  path: /api/v1/group-choices/${CHOICE}/votes/${ID2}
+  role: reviewer_a
+  request:
+    path_parameters:
+      CHOICE: ${CHOICE}
+      ID2: ${ID2}
+    query: {}
+    headers:
+      Accept: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - my_votes
+    - results_visible
+    assertions:
+    - my_votes is empty
+    - results_visible == false
+- id: chat
+  required: true
+  method: GET
+  path: /api/v1/occurrences/${ID1}/community
+  role: reviewer_a
+  request:
+    path_parameters:
+      ID1: ${ID1}
+    query: {}
+    headers:
+      Accept: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - invite_link
+    assertions:
+    - A string link or null is valid; null causes a visible modal in UI
+- id: track
+  required: true
+  method: PUT
+  path: /api/v1/me/tracked-events/${ID1}
+  role: reviewer_a
+  request:
+    path_parameters:
+      ID1: ${ID1}
+    query: {}
+    headers:
+      Accept: application/json
+      Content-Type: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+    body:
+      remind_before_minutes: 60
+  expected:
+    status_codes:
+    - 200
+    content_type: application/json
+    required_fields:
+    - is_tracked
+    assertions:
+    - is_tracked == true
+- id: untrack
+  required: true
+  method: DELETE
+  path: /api/v1/me/tracked-events/${ID1}
+  role: reviewer_a
+  request:
+    path_parameters:
+      ID1: ${ID1}
+    query: {}
+    headers:
+      Accept: application/json
+      Authorization: Bearer ${REVIEWER_A_TOKEN}
+  expected:
+    status_codes:
+    - 204
+    content_type: null
+    required_fields: []
+    assertions: []

@@ -17,6 +17,8 @@ from app.auth.dependencies import current_user_id
 from app.bot.updates import normalize_update
 from app.integrations.llm.adapter import OllamaAdapter
 
+from app.schemas.responses import AuthOut, HealthOut, ErrorOut
+
 class AuthRequest(BaseModel):
     init_data: str = Field(min_length=1, max_length=16384)
 
@@ -35,7 +37,8 @@ def create_app(settings: Settings | None = None, bindings=None, engine=None) -> 
             yield
         engine.dispose()
 
-    app = FastAPI(title='Точка притяжения', version='1.3.1', lifespan=lifespan,
+    app = FastAPI(title='Точка притяжения', version='1.3.2', lifespan=lifespan,
+                  responses={code: {'model': ErrorOut} for code in (401,403,404,422,503)},
                   docs_url='/api/docs',openapi_url='/api/openapi.json',redoc_url=None)
     app.state.settings, app.state.bindings = settings, bindings
     from sqlalchemy.orm import sessionmaker
@@ -80,7 +83,7 @@ def create_app(settings: Settings | None = None, bindings=None, engine=None) -> 
     async def internal_error(request, exc):
         return error(request, 'external_service_unavailable', 503, 'Сервис временно недоступен')
 
-    @app.get('/health')
+    @app.get('/health', response_model=HealthOut)
     def health():
         try:
             with engine.connect() as conn: conn.execute(text('SELECT 1'))
@@ -88,7 +91,7 @@ def create_app(settings: Settings | None = None, bindings=None, engine=None) -> 
         except SQLAlchemyError:
             return JSONResponse({'status': 'unavailable', 'database': 'unavailable'}, status_code=503)
 
-    @app.post('/api/v1/auth/max')
+    @app.post('/api/v1/auth/max', response_model=AuthOut)
     async def auth(body: AuthRequest):
         if not settings.max_bot_token or len(settings.session_secret) < 32:
             raise HTTPException(503, 'external_service_unavailable')
@@ -134,6 +137,8 @@ def create_app(settings: Settings | None = None, bindings=None, engine=None) -> 
     async def missing_integration(path: str, request: Request):
         return error(request, 'not_found', 404, 'Маршрут не найден')
 
+    from app.openapi import configure_openapi
+    configure_openapi(app, settings)
     return app
 
 app = create_app()

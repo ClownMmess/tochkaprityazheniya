@@ -3,17 +3,17 @@ services:
     environment:
       APP_ENV: production
       DEMO_MODE: "false"
-      CATALOG_REFRESH_ENABLED: "true"
+      CATALOG_REFRESH_ENABLED: ${CATALOG_REFRESH_ENABLED:-true}
   worker:
     environment:
       APP_ENV: production
       DEMO_MODE: "false"
-      CATALOG_REFRESH_ENABLED: "true"
+      CATALOG_REFRESH_ENABLED: ${CATALOG_REFRESH_ENABLED:-true}
   catalog:
     environment:
       APP_ENV: production
       DEMO_MODE: "false"
-      CATALOG_REFRESH_ENABLED: "true"
+      CATALOG_REFRESH_ENABLED: ${CATALOG_REFRESH_ENABLED:-true}
   https:
     image: caddy:2-alpine
     environment:

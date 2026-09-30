@@ -8,3 +8,11 @@
 **/.pytest_cache
 **/*.db
 docs
+
+frontend
+openapi.json
+DATA-API.yaml
+*.md
+*.pdf
+*.pptx
+submission-info.json

@@ -27,6 +27,6 @@ if ($LASTEXITCODE -ne 0) {
 }
 $version = Invoke-RestMethod 'http://localhost:8080/api/v1/runtime'
 $uiVersion = Invoke-RestMethod 'http://localhost:8080/version.json'
-if ($version.catalog_version -ne '1.3.1' -or $uiVersion.version -ne '1.3.1') { throw 'Version mismatch. Replace all files from the new ZIP and run start-demo again.' }
+if ($version.catalog_version -ne '1.3.2' -or $uiVersion.version -ne '1.3.2') { throw 'Version mismatch. Replace all files from the new ZIP and run start-demo again.' }
 Start-Process 'http://localhost:8080'
 Write-Host 'App: http://localhost:8080 . Demo users are available in the page header.'

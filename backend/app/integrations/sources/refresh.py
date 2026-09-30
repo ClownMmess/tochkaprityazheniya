@@ -10,7 +10,6 @@ from app.services.bootstrap import bootstrap,stable
 from app.integrations.kudago.importer import fetch_city,import_items,mark_missing,normalize_schedule
 from app.integrations.sources.venues import SOURCES,fetch_venue
 from app.integrations.sources.timepad import fetch_timepad
-from app.integrations.sources.kassir import fetch_kassir
 from app.integrations.sources.culture import fetch_culture
 from app.integrations.sources.places import fetch_places
 from app.integrations.sources.nethouse import fetch_nethouse
@@ -37,8 +36,10 @@ def refresh_all(sessions,kudago_url):
 
 def _refresh(sessions,kudago_url):
     results=[]
-    sources=['KudaGo','Nethouse',*SOURCES,'KASSIR.RU','ВДНХ','Музей «Гараж»',*LOCAL_SOURCES]
+    sources=['KudaGo','Nethouse',*SOURCES,'ВДНХ','Музей «Гараж»',*LOCAL_SOURCES]
     if os.getenv('TIMEPAD_API_TOKEN'): sources.append('Timepad')
+    enabled = {name.strip() for name in os.getenv('CATALOG_LIVE_SOURCES', 'KudaGo').split(',') if name.strip()}
+    sources = [source for source in sources if source in enabled]
     for source in sources:
         cities=[LOCAL_SOURCES[source][1]] if source in LOCAL_SOURCES else ['msk','krd'] if source in {'KudaGo','Timepad','KASSIR.RU','Nethouse'} else ['krd' if source=='КРОП Арена' else 'msk']
         for city in cities:
@@ -51,7 +52,6 @@ def _refresh(sessions,kudago_url):
                     places,places_complete=fetch_places(kudago_url,city)
                     rows+=places;complete=complete and places_complete
                 elif source=='Nethouse':rows,complete=fetch_nethouse(city,fetched)
-                elif source=='KASSIR.RU':rows,complete=fetch_kassir(city,fetched)
                 elif source in {'ВДНХ','Музей «Гараж»'}:rows,complete=fetch_culture(source,fetched)
                 elif source in LOCAL_SOURCES:rows,complete=fetch_local(source,fetched)
                 elif source=='Timepad':rows,complete=fetch_timepad(city,fetched,os.getenv('TIMEPAD_API_TOKEN'))

@@ -20,7 +20,10 @@ from app.integrations.llm.clarify import questions,merge_context
 from app.integrations.sources.common import horizon
 from zoneinfo import ZoneInfo
 
-router=APIRouter()
+from app.schemas.responses import (EventOut, EventPageOut, DetailOut, NaturalOut,
+    ChoiceOut, PreferencesOut, AuthOut, CommunityOut, ErrorOut)
+
+router=APIRouter(responses={code: {'model': ErrorOut} for code in (401,403,404,409,422,503)})
 def session(request:Request):
     with request.app.state.sessions() as s:yield s
 
@@ -45,10 +48,10 @@ def runtime(request:Request,s=Depends(session)):
     for city in s.scalars(select(City)):
         counts[city.slug]=len(unique_events(s,query_occurrences(s,city=city.slug)))
     settings=request.app.state.settings
-    return {"demo_mode":settings.demo_mode,"bot_name":settings.max_bot_name,"llm_enabled":settings.llm_enabled,"actual_occurrences":counts,"schema_version":5,"catalog_version":"1.3.1","horizon_end":horizon(utcnow()).date().isoformat(),"refresh_enabled":settings.catalog_refresh_enabled,"refresh_seconds":settings.catalog_refresh_seconds,"llm_model":settings.llm_model}
+    return {"demo_mode":settings.demo_mode,"bot_name":settings.max_bot_name,"llm_enabled":settings.llm_enabled,"actual_occurrences":counts,"schema_version":5,"catalog_version":"1.3.2","horizon_end":horizon(utcnow()).date().isoformat(),"refresh_enabled":settings.catalog_refresh_enabled,"refresh_seconds":settings.catalog_refresh_seconds,"llm_model":settings.llm_model}
 
 class DemoLogin(BaseModel):user: str=Field(pattern=r"^(pavel|anya)$")
-@router.post('/auth/demo')
+@router.post('/auth/demo',response_model=AuthOut)
 async def demo_auth(data:DemoLogin,request:Request):
     if not request.app.state.settings.demo_mode:raise HTTPException(404,"not_found")
     saved=await request.app.state.bindings.users.upsert_max_user(VerifiedUser(max_user_id='demo_'+data.user,first_name='Павел' if data.user=='pavel' else 'Аня'))
@@ -59,10 +62,10 @@ def meta(s=Depends(session)):
     def items(model):return [{"id":x.id,"slug":x.slug,"label":x.name} for x in s.scalars(select(model).order_by(model.name))]
     return {"cities":[{**x,"area":CITIES[x["slug"]][1]} for x in items(City)],"categories":items(Category),"age_groups":items(AgeGroup),"interests":[{**v,"categories":[{"id":c.id,"slug":c.slug,"label":c.name} for c in s.scalars(select(InterestCategory).where(InterestCategory.interest_id==v['id']).order_by(InterestCategory.name))]} for v in items(Interest)],"sources":[{"label":x.name,"url":x.base_url,"loaded":x.last_sync_at is not None} for x in s.scalars(select(EventSource).where(EventSource.name!="Демонстрационные данные",EventSource.last_sync_at.is_not(None)).order_by(EventSource.name))],"organizers":[{"id":x.id,"label":x.name} for x in s.scalars(select(Organizer).order_by(Organizer.name))]}
 
-@router.get('/me/preferences')
+@router.get('/me/preferences',response_model=PreferencesOut)
 def get_preferences(user=Depends(current_user_id),s=Depends(session)):return preferences(s,user)
 
-@router.put('/me/preferences')
+@router.put('/me/preferences',response_model=PreferencesOut)
 def put_preferences(data:PreferencesIn,user=Depends(current_user_id),s=Depends(session)):
     lock_user(s,user)
     if not s.get(AgeGroup,str(data.age_group_id)):raise HTTPException(422,"invalid_filter")
@@ -79,7 +82,7 @@ def put_preferences(data:PreferencesIn,user=Depends(current_user_id),s=Depends(s
         for i in ids:s.add(model(**{'user_id':user,col:i}))
     s.commit();return preferences(s,user)
 
-@router.get('/events')
+@router.get('/events',response_model=EventPageOut)
 def events(request:Request,city:str=Query('msk',pattern=CITY_PATTERN),include_nearby:bool=False,date_from:date|None=None,date_to:date|None=None,categories:list[str]=Query(default=[]),price_max:int|None=Query(None,ge=0),age_max:int|None=Query(None,ge=0,le=100),age_exact:int|None=Query(None,ge=0,le=100),include_unknown_age:bool=False,kind:str|None=Query(None,pattern="^(event|place)$"),is_free:bool=False,query:str=Query('',max_length=300),page:int=Query(1,ge=1),page_size:int=Query(20,ge=1,le=100),interest_categories:list[str]=Query(default=[]),source:str|None=None,venue:str|None=None,time_of_day:str|None=Query(None,pattern="^(morning|afternoon|evening|night)$"),price_match:str=Query("from",pattern="^(from|strict)$"),sort:str=Query("date",pattern="^(date|price)$"),show_demo:bool=False,user=Depends(maybe_user),s=Depends(session)):
     if date_from and date_to and date_from>date_to:raise HTTPException(422,"invalid_filter")
     known=set(s.scalars(select(Category.slug)))
@@ -95,13 +98,13 @@ def events(request:Request,city:str=Query('msk',pattern=CITY_PATTERN),include_ne
         alternatives=suggest_alternatives(s,intent,user,selected_mode(request,show_demo))
     return {"items":[card(s,o,user) for o in rows[(page-1)*page_size:page*page_size]],"page":page,"page_size":page_size,"total":len(rows),"alternatives":alternatives}
 
-@router.get('/occurrences/{occurrence_id}')
+@router.get('/occurrences/{occurrence_id}',response_model=DetailOut)
 def occurrence_detail(occurrence_id:UUID,user=Depends(maybe_user),s=Depends(session)):
     o=option(s,str(occurrence_id));e=s.get(Event,o.event_id)
     warm(s,[o],user)
     return {**card(s,o,user),"description":e.description,"occurrences":[card(s,v,user) for v in s.scalars(select(Occurrence).where(Occurrence.event_id==e.id,*actual_clause()).order_by(Occurrence.starts_at))]}
 
-@router.get('/events/{event_id}')
+@router.get('/events/{event_id}',response_model=DetailOut)
 def event_detail(event_id:UUID,user=Depends(maybe_user),s=Depends(session)):
     q=select(Occurrence).where(Occurrence.event_id==str(event_id))
     o=s.scalar(q.where(*actual_clause()).order_by(Occurrence.starts_at))
@@ -115,7 +118,7 @@ class IntentRequest(BaseModel):
     page:int=Field(default=1,ge=1)
     page_size:int=Field(default=20,ge=1,le=100)
 
-@router.post('/search/natural')
+@router.post('/search/natural',response_model=NaturalOut)
 async def natural(data:NaturalIn,request:Request,show_demo:bool=False,user=Depends(maybe_user)):
     mode=selected_mode(request,show_demo)
     def taxonomy():
@@ -135,7 +138,7 @@ async def natural(data:NaturalIn,request:Request,show_demo:bool=False,user=Depen
         results=[];relaxations=await run_in_threadpool(alternatives)
     return {"intent":intent.model_dump(mode='json'),"results":results[:20],"total":len(results),"page":1,"page_size":20,"llm_status":status,"relaxations":relaxations,"questions":questions(intent,utcnow().astimezone(ZoneInfo("Europe/Moscow")).date())}
 
-@router.post('/search/intent')
+@router.post('/search/intent',response_model=NaturalOut)
 def search_intent(data:IntentRequest,request:Request,user=Depends(maybe_user),s=Depends(session)):
     if not set(data.intent.categories+data.intent.excluded_categories)<=set(s.scalars(select(Category.slug))):raise HTTPException(422,"invalid_filter")
     if not set(data.intent.interest_categories)<=set(s.scalars(select(InterestCategory.slug))):raise HTTPException(422,'invalid_filter')
@@ -152,12 +155,12 @@ def get_discovery(city:str=Query('msk',pattern=CITY_PATTERN),include_nearby:bool
     from app.services.discovery import discovery
     return discovery(s,city,include_nearby,user,seed)
 
-@router.get('/me/tracked-events')
+@router.get('/me/tracked-events',response_model=EventPageOut)
 def tracked(user=Depends(current_user_id),s=Depends(session)):
     rows=list(s.scalars(select(Occurrence).join(TrackedEvent,TrackedEvent.occurrence_id==Occurrence.id).where(TrackedEvent.user_id==user,TrackedEvent.status=='active').order_by(Occurrence.starts_at)))
     return {"items":[card(s,o,user) for o in rows],"page":1,"page_size":max(1,len(rows)),"total":len(rows)}
 
-@router.put('/me/tracked-events/{occurrence_id}')
+@router.put('/me/tracked-events/{occurrence_id}',response_model=EventOut)
 def track(occurrence_id:UUID,data:TrackIn,user=Depends(current_user_id),s=Depends(session)):
     lock_user(s,user);o=option(s,str(occurrence_id))
     if not is_actual(o):raise HTTPException(409,"event_not_actual")
@@ -188,13 +191,13 @@ def untrack(occurrence_id:UUID,user=Depends(current_user_id),s=Depends(session))
         for j in s.scalars(select(NotificationJob).where(NotificationJob.tracking_id==t.id,NotificationJob.status.in_(['pending','processing']))):j.status='cancelled'
     s.commit();return Response(status_code=204)
 
-@router.get('/occurrences/{occurrence_id}/community')
+@router.get('/occurrences/{occurrence_id}/community',response_model=CommunityOut)
 def community(occurrence_id:UUID,user=Depends(current_user_id),s=Depends(session)):
     o=option(s,str(occurrence_id))
     chat=s.scalar(select(EventChat).where(EventChat.event_id==o.event_id,EventChat.is_active.is_(True)))
     return {'invite_link':chat.invite_link if chat else None}
 
-@router.post('/group-choices',status_code=201)
+@router.post('/group-choices',status_code=201,response_model=ChoiceOut)
 def create_choice(data:ChoiceIn,request:Request,user=Depends(current_user_id),s=Depends(session)):
     ids=list(map(str,data.occurrence_ids))
     if len(set(ids))!=len(ids) or not data.title.strip():raise HTTPException(422,'invalid_group_choice')
@@ -227,7 +230,7 @@ def choice_response(s,c,user,request):
             'total_votes':sum(votes.values()) if visible else None,
             'expires_at':aware(c.expires_at).isoformat(),'status':'expired' if aware(c.expires_at)<=utcnow() else c.status}
 
-@router.get('/group-choices/{token}')
+@router.get('/group-choices/{token}',response_model=ChoiceOut)
 def read_choice(token:str,request:Request,user=Depends(maybe_user),s=Depends(session)):
     return choice_response(s,get_choice(s,token),user,request)
 
@@ -237,7 +240,7 @@ def voting_choice(s,token,oid):
     if not s.get(GroupChoiceEvent,(choice.id,oid)):raise HTTPException(422,'invalid_group_choice')
     return choice
 
-@router.put('/group-choices/{token}/vote')
+@router.put('/group-choices/{token}/vote',response_model=ChoiceOut)
 def vote(token:str,data:VoteIn,request:Request,user=Depends(current_user_id),s=Depends(session)):
     oid=str(data.occurrence_id);choice=voting_choice(s,token,oid)
     if not is_actual(option(s,oid)):raise HTTPException(409,'event_not_actual')
@@ -245,7 +248,7 @@ def vote(token:str,data:VoteIn,request:Request,user=Depends(current_user_id),s=D
     if not existing:s.add(GroupChoiceVote(choice_id=choice.id,user_id=user,occurrence_id=oid))
     s.commit();return choice_response(s,choice,user,request)
 
-@router.delete('/group-choices/{token}/votes/{occurrence_id}')
+@router.delete('/group-choices/{token}/votes/{occurrence_id}',response_model=ChoiceOut)
 def remove_vote(token:str,occurrence_id:UUID,request:Request,user=Depends(current_user_id),s=Depends(session)):
     oid=str(occurrence_id);choice=voting_choice(s,token,oid)
     s.execute(delete(GroupChoiceVote).where(GroupChoiceVote.choice_id==choice.id,GroupChoiceVote.user_id==user,GroupChoiceVote.occurrence_id==oid))
