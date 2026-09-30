@@ -1,0 +1,35 @@
+{
+  "release": "1.2.0",
+  "backend_full_suite": 93,
+  "additional_saved_place_test": 1,
+  "frontend_tests": 4,
+  "frontend_production_build": "passed",
+  "postgres_compatible_integration_tests": 23,
+  "full_postgres_compatible_seed_and_health": "passed",
+  "docker_windows": "not_run",
+  "hardware_llm": "not_run",
+  "live_max": "not_run",
+  "browser": {
+    "status": "passed",
+    "widths": [
+      360,
+      390,
+      1440
+    ],
+    "queries": [
+      {
+        "text": "Хочу сводить девушку в музей",
+        "total": 176
+      },
+      {
+        "text": "хочу на рэп концерт",
+        "total": 91
+      },
+      {
+        "text": "стенап до 3000",
+        "total": 184
+      }
+    ],
+    "js_errors": []
+  }
+}

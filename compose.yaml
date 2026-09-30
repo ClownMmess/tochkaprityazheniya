@@ -1,0 +1,52 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-app}
+      POSTGRES_USER: ${POSTGRES_USER:-app}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run start-demo or scripts/init_env.py first}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"']
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  api:
+    build: .
+    env_file: .env
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    command: [sh, -c, "python -m app.cli init && exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --no-access-log"]
+    depends_on:
+      db: {condition: service_healthy}
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=4)"]
+      start_period: 10m
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+  worker:
+    build: .
+    command: [python, -m, app.worker.runner]
+    env_file: .env
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    depends_on:
+      api: {condition: service_healthy}
+    restart: unless-stopped
+  frontend:
+    build: ./frontend
+    ports: ["${APP_BIND_IP:-127.0.0.1}:${APP_PORT:-8080}:80"]
+    depends_on:
+      api: {condition: service_healthy}
+    restart: unless-stopped
+  catalog:
+    build: .
+    command: [python, -m, app.integrations.sources.scheduler]
+    env_file: .env
+    depends_on:
+      api: {condition: service_healthy}
+    restart: unless-stopped
+volumes:
+  postgres_data:

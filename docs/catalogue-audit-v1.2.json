@@ -1,0 +1,164 @@
+{
+  "checked_at": "2026-09-29T09:24:34.788348+00:00",
+  "cities": {
+    "msk": {
+      "total": 7357,
+      "events": 6896,
+      "places": 461,
+      "categories": {
+        "exhibition": 146,
+        "kids": 113,
+        "quest": 1,
+        "entertainment": 250,
+        "museum": 146,
+        "park": 88,
+        "tour": 207,
+        "theater": 2876,
+        "holiday": 1,
+        "education": 177,
+        "sport": 55,
+        "concert": 2635,
+        "stock": 19,
+        "cinema": 259,
+        "stand-up": 190,
+        "festival": 29,
+        "fair": 2,
+        "party": 15,
+        "other": 1,
+        "landmark": 95,
+        "amusement": 52
+      },
+      "dated_months": {
+        "2026-09": 474,
+        "2026-10": 3835,
+        "2026-11": 1274,
+        "2026-12": 666,
+        "2027-01": 227,
+        "2027-02": 120,
+        "2027-03": 94
+      },
+      "by_source": {
+        "KudaGo": 749,
+        "KASSIR.RU": 6367,
+        "ВДНХ": 138,
+        "Музей «Гараж»": 6,
+        "StandUp Cafe": 31,
+        "BASE": 33,
+        "VK Stadium": 33
+      }
+    },
+    "krd": {
+      "total": 645,
+      "events": 636,
+      "places": 9,
+      "categories": {
+        "museum": 11,
+        "kids": 26,
+        "tour": 2,
+        "education": 13,
+        "cinema": 9,
+        "theater": 212,
+        "concert": 310,
+        "entertainment": 21,
+        "stand-up": 22,
+        "festival": 1,
+        "sport": 9,
+        "fair": 1,
+        "holiday": 1,
+        "park": 1,
+        "landmark": 6
+      },
+      "dated_months": {
+        "2026-09": 19,
+        "2026-10": 279,
+        "2026-11": 170,
+        "2026-12": 93,
+        "2027-01": 24,
+        "2027-02": 16,
+        "2027-03": 20
+      },
+      "by_source": {
+        "KASSIR.RU": 610,
+        "КРОП Арена": 26,
+        "KudaGo": 9
+      }
+    }
+  },
+  "queries": {
+    "Хочу сводить девушку в музей": {
+      "total": 176,
+      "categories": [
+        "museum",
+        "exhibition"
+      ],
+      "all_categories": [
+        "exhibition",
+        "museum"
+      ]
+    },
+    "хочу на рэп концерт": {
+      "total": 91,
+      "categories": [
+        "concert"
+      ],
+      "all_categories": [
+        "concert"
+      ]
+    },
+    "стенап до 3000": {
+      "total": 184,
+      "categories": [
+        "stand-up"
+      ],
+      "all_categories": [
+        "stand-up"
+      ]
+    },
+    "Ярмарки": {
+      "total": 2,
+      "categories": [
+        "fair"
+      ],
+      "all_categories": [
+        "fair"
+      ]
+    },
+    "хочу в парк развлечений": {
+      "total": 53,
+      "categories": [
+        "amusement"
+      ],
+      "all_categories": [
+        "amusement"
+      ]
+    },
+    "бесплатно": {
+      "total": 104,
+      "categories": [],
+      "all_categories": [
+        "cinema",
+        "entertainment",
+        "tour",
+        "concert",
+        "exhibition",
+        "stand-up",
+        "stock",
+        "other",
+        "festival",
+        "fair",
+        "education",
+        "museum"
+      ]
+    }
+  },
+  "sources": [
+    "BASE",
+    "KASSIR.RU",
+    "KudaGo",
+    "StandUp Cafe",
+    "VK Stadium",
+    "ВДНХ",
+    "КРОП Арена",
+    "Музей «Гараж»"
+  ]
+}

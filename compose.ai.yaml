@@ -1,0 +1,25 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes: [ollama_models:/root/.ollama]
+    healthcheck:
+      test: [CMD, ollama, list]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+  api:
+    environment:
+      LLM_ENABLED: "true"
+      LLM_BASE_URL: http://ollama:11434/v1
+      LLM_MODEL: qwen2.5:7b
+      LLM_TIMEOUT_SECONDS: "25"
+    depends_on:
+      ollama: {condition: service_healthy}
+  worker:
+    environment:
+      LLM_ENABLED: "true"
+      LLM_BASE_URL: http://ollama:11434/v1
+      LLM_MODEL: qwen2.5:7b
+volumes:
+  ollama_models:

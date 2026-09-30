@@ -1,0 +1,26 @@
+const {chromium}=require('playwright');const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');
+(async()=>{
+ const browser=await chromium.launch({headless:true,args:['--no-sandbox']});const base=process.env.E2E_BASE_URL||'http://localhost:8080';const output=process.env.E2E_OUTPUT||'/tmp/max-revision';fs.mkdirSync(output,{recursive:true});
+ const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(base);await page.locator('.demo-bar').waitFor();await page.getByRole('button',{name:'Павел',exact:true}).waitFor();await page.waitForFunction(()=>!document.body.innerText.includes('Загружаем профиль'));const save=page.getByRole('button',{name:'Сохранить и перейти к афише'});if(await page.getByRole('heading',{name:'То, что интересно именно вам.'}).isVisible()){await save.waitFor();await page.getByLabel('Возрастная группа').selectOption({label:'18–24'});await save.click();}
+ await page.locator('.card').first().waitFor();assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+ await page.screenshot({path:path.join(output,'mobile-home.png')});
+ await page.getByRole('button',{name:'Ещё идеи +10',exact:true}).click();assert.equal(await page.locator('.scenarios button').count(),19);
+ await page.locator('.scenarios').getByRole('button',{name:'Бесплатно',exact:true}).click();await page.waitForFunction(()=>document.querySelector('#natural').value==='Бесплатно');await page.getByRole('heading',{name:'По вашему запросу'}).waitFor();
+ await page.waitForFunction(()=>!document.querySelector('.natural button').disabled);assert.ok(await page.locator('.card').count());
+ for(const text of ['стендап до 3000','хочу сводить девушку на свидание на стендап или в театр до 5000']){
+  await page.locator('#natural').fill(text);const response=page.waitForResponse(r=>r.url().includes('/search/natural')&&r.request().method()==='POST');await page.getByRole('button',{name:'Найти по описанию'}).click();const data=await (await response).json();assert.ok(data.total>0);assert.ok(data.results.every(x=>x.event.categories.every(c=>c==='stand-up'||text.includes('театр')&&c==='theater')));await page.waitForFunction(()=>!document.querySelector('.natural button').disabled);
+ }
+ await page.locator('.section-title').evaluate(el=>el.scrollIntoView({block:'start'}));await page.waitForFunction(()=>{const i=document.querySelector('.card img');return !i||i.complete},{timeout:15000}).catch(()=>{});await page.screenshot({path:path.join(output,'mobile-search.png')});
+ for(const artist of ['madk1d','Boulevard Depo']){await page.locator('.scenarios').getByRole('button',{name:artist,exact:true}).click();await page.waitForFunction(()=>!document.querySelector('.natural button').disabled);await page.locator('.card').first().waitFor();assert.equal(await page.locator('#natural').inputValue(),'Концерт '+artist);assert.ok(await page.getByRole('button',{name:new RegExp(artist,'i')}).count());}
+ await page.locator('.section-title').evaluate(el=>el.scrollIntoView({block:'start'}));await page.waitForFunction(()=>{const i=document.querySelector('.card img');return !i||i.complete},{timeout:15000}).catch(()=>{});await page.screenshot({path:path.join(output,'mobile-concert.png')});
+ await page.getByRole('button',{name:'Афиша',exact:true}).click();await page.locator('.card').first().waitFor();
+ await page.locator('.card').first().scrollIntoViewIfNeeded();await page.waitForTimeout(700);
+ const posters=await page.locator('.card img').evaluateAll(imgs=>imgs.map(i=>({src:i.src,loaded:i.complete&&i.naturalWidth>0,hidden:i.style.display==='none'})));console.log('POSTER_QA',JSON.stringify(posters.slice(0,6)));
+ await page.screenshot({path:path.join(output,'mobile-catalog.png')});
+ for(let i=0;i<5;i++)await page.getByRole('button',{name:'+ Сравнить',exact:true}).first().click();assert.match(await page.locator('.selection').innerText(),/5\/5/);await page.getByRole('button',{name:'Создать выбор',exact:true}).click();await page.locator('.vote').first().waitFor();assert.equal(await page.locator('.vote').count(),5);await page.locator('.vote').last().click();await page.getByText(/Всего голосов: 1/).waitFor();
+ await page.getByRole('button',{name:'Афиша',exact:true}).click();if(await page.getByRole('button',{name:'Очистить',exact:true}).isVisible())await page.getByRole('button',{name:'Очистить',exact:true}).click();await page.setViewportSize({width:1440,height:1000});await page.getByRole('button',{name:'Афиша',exact:true}).click();await page.locator('.card').first().waitFor();await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:path.join(output,'desktop-home.png')});
+ await page.setViewportSize({width:360,height:780});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+ await page.goto(base+'/mobile-preview.html');await page.frameLocator('iframe').locator('header').waitFor();await page.locator('#width').selectOption('430');assert.deepEqual(errors,[]);
+ console.log('PASS revision E2E: 360/390/1440px, 18 chips/input, exact real searches, modern performers, five choices/vote, mobile wrapper, no JS errors.');await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

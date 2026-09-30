@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-09-29T07:23:42.793974+00:00",
+  "catalogue": {
+    "msk": {
+      "events": 545,
+      "sources": {
+        "KudaGo": 423,
+        "StandUp Cafe": 37,
+        "BASE": 40,
+        "VK Stadium": 45
+      },
+      "free": 81
+    },
+    "krd": {
+      "events": 33,
+      "sources": {
+        "КРОП Арена": 33
+      },
+      "free": 0
+    }
+  },
+  "source_pages": {
+    "KudaGo": "https://kudago.com/public-api/v1.4/",
+    "BASE": "https://base-club.com/",
+    "VK Stadium": "https://vk-stadium.ru/",
+    "КРОП Арена": "https://arenahall.info/krd/",
+    "StandUp Cafe": "https://standupcafe.ru/events"
+  },
+  "timepad": {
+    "status": "unavailable",
+    "http_status": 403
+  },
+  "all_event_links_checked": false,
+  "categories": 25,
+  "genres": 20
+}

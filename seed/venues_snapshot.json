@@ -1,0 +1,5058 @@
+{
+  "fetched_at": "2026-09-29T07:12:02.172664+00:00",
+  "sources": {
+    "BASE": {
+      "results": [
+        {
+          "id": "jmsn",
+          "site_url": "https://base-club.com/events/jmsn/",
+          "title": "JMSN",
+          "description": "",
+          "dates": [
+            {
+              "start": 1790956800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/jmsn_base_event-1720x477.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "psychea2026",
+          "site_url": "https://base-club.com/events/psychea2026/",
+          "title": "Психея",
+          "description": "День рождения группы",
+          "dates": [
+            {
+              "start": 1791043200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/base_main-psiheya.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "ektomorf",
+          "site_url": "https://base-club.com/events/ektomorf/",
+          "title": "Ektomorf",
+          "description": "",
+          "dates": [
+            {
+              "start": 1791133200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/ektomorf_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "the-beatles-festival-26",
+          "site_url": "https://base-club.com/events/the-beatles-festival-26/",
+          "title": "The Beatles Festival",
+          "description": "The Beatlove, Корней и Zebra Band, Вадим Иващенко & The Boneshakers, Father McKenzie, Artefact",
+          "dates": [
+            {
+              "start": 1791640800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/beatles_fest_26_base_slider.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "fpg-25",
+          "site_url": "https://base-club.com/events/fpg-25/",
+          "title": "F.P.G",
+          "description": "25 лет альбому «Гонщики»",
+          "dates": [
+            {
+              "start": 1792170000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/fpg_gonshiki_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "prodigy-con-legacy",
+          "site_url": "https://base-club.com/events/prodigy-con-legacy/",
+          "title": "Prodigy Con Legacy",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792270200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/prodigycon_legacy_base_event.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "uglystephan-live",
+          "site_url": "https://base-club.com/events/uglystephan-live/",
+          "title": "uglystephan",
+          "description": "Большой сольный концерт",
+          "dates": [
+            {
+              "start": 1792339200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/uglystephan_base_slider-1-474x563.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "madk1d-clubshow",
+          "site_url": "https://base-club.com/events/madk1d-clubshow/",
+          "title": "madk1d",
+          "description": "+ шоу-программа от ATLANTA",
+          "dates": [
+            {
+              "start": 1792767600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/madkid_base_slider-2-474x563.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "yagoda",
+          "site_url": "https://base-club.com/events/yagoda/",
+          "title": "Ягода",
+          "description": "Презентация нового альбома",
+          "dates": [
+            {
+              "start": 1792861200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/yagoda_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "jane-air-orchestra",
+          "site_url": "https://base-club.com/events/jane-air-orchestra/",
+          "title": "Jane Air",
+          "description": "в сопровождении струнного оркестра",
+          "dates": [
+            {
+              "start": 1793379600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/jane_air_base_slider_3-474x563.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "lsp-halloween",
+          "site_url": "https://base-club.com/events/lsp-halloween/",
+          "title": "ЛСП x Atlanta",
+          "description": "Специальное Хэллоуин-шоу",
+          "dates": [
+            {
+              "start": 1793458800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/lsp_base_slider-474x563.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "horrorland-atlanta",
+          "site_url": "https://base-club.com/events/horrorland-atlanta/",
+          "title": "HORRORLAND ATLANTA",
+          "description": "бесплатный бар • секретный гость",
+          "dates": [
+            {
+              "start": 1793480340
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/horrorland_base_slider-474x563.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "elektroslabost",
+          "site_url": "https://base-club.com/events/elektroslabost/",
+          "title": "Электрослабость",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793552400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/elektroslabost_base_event-1720x477.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "chizh-co",
+          "site_url": "https://base-club.com/events/chizh-co/",
+          "title": "Чиж & Co",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793725200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/chizh_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "5opka-mellsher-2",
+          "site_url": "https://base-club.com/events/5opka-mellsher-2/",
+          "title": "5opka x MellSher",
+          "description": "«Прощальный тур»",
+          "dates": [
+            {
+              "start": 1793808000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/5opka_mellsher_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "mavashi",
+          "site_url": "https://base-club.com/events/mavashi/",
+          "title": "Маваши Group",
+          "description": "Большой сольный концерт",
+          "dates": [
+            {
+              "start": 1793894400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/mavashi_group_base_event.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "slava-marlow-2",
+          "site_url": "https://base-club.com/events/slava-marlow-2/",
+          "title": "SLAVA MARLOW",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793980800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/marlow_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "garik-pogorelov",
+          "site_url": "https://base-club.com/events/garik-pogorelov/",
+          "title": "Гарик Погорелов",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794070800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/garik_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "cold-carti-2",
+          "site_url": "https://base-club.com/events/cold-carti-2/",
+          "title": "cold carti",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794153600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/coldcarti_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "severnyflot",
+          "site_url": "https://base-club.com/events/severnyflot/",
+          "title": "Северный Флот",
+          "description": "Новый альбом + лучшее",
+          "dates": [
+            {
+              "start": 1794589200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/sevflot_base_event.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "fair26",
+          "site_url": "https://base-club.com/events/fair26/",
+          "title": "Честный",
+          "description": "Большой сольный концерт",
+          "dates": [
+            {
+              "start": 1794675600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/fair26_base_event_2.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "diktofon",
+          "site_url": "https://base-club.com/events/diktofon/",
+          "title": "Диктофон",
+          "description": "Программа «Осенние каникулы»",
+          "dates": [
+            {
+              "start": 1794762000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/diktofon_base_event_2.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "sulafray",
+          "site_url": "https://base-club.com/events/sulafray/",
+          "title": "Sula Fray",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795107600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/sulafray_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "murakami-2",
+          "site_url": "https://base-club.com/events/murakami-2/",
+          "title": "Мураками",
+          "description": "Новый альбом и лучшие песни",
+          "dates": [
+            {
+              "start": 1795194000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/murakami_base_event-1.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "bau-2",
+          "site_url": "https://base-club.com/events/bau-2/",
+          "title": "Б.А.У.",
+          "description": "Тур по металлическому кольцу России",
+          "dates": [
+            {
+              "start": 1795280400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/bau_nov_base_event.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "settlers",
+          "site_url": "https://base-club.com/events/settlers/",
+          "title": "Settlers",
+          "description": "Презентация нового альбома + все хиты",
+          "dates": [
+            {
+              "start": 1795366800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/settlers_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "kokoshka",
+          "site_url": "https://base-club.com/events/kokoshka/",
+          "title": "Андрей Кокошка",
+          "description": "+ специальные гости",
+          "dates": [
+            {
+              "start": 1795708800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/kokoshka_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "bazar-2",
+          "site_url": "https://base-club.com/events/bazar-2/",
+          "title": "БАЗАР",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795798800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/bazar_base_event-1.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "feofan",
+          "site_url": "https://base-club.com/events/feofan/",
+          "title": "Нейромонах Феофан",
+          "description": "Все хиты и новые песни",
+          "dates": [
+            {
+              "start": 1795885200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/feofan_base_slider-2-474x563.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "affinage",
+          "site_url": "https://base-club.com/events/affinage/",
+          "title": "Аффинаж",
+          "description": "Новый альбом и все хиты",
+          "dates": [
+            {
+              "start": 1795971600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/affinage_base_spb_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "jlt",
+          "site_url": "https://base-club.com/events/jlt/",
+          "title": "Джо Линн Тернер",
+          "description": "45 лет альбому Rainbow «Difficult to Cure»",
+          "dates": [
+            {
+              "start": 1796403600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/jlt_base_event-1.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "islamitlyashev",
+          "site_url": "https://base-club.com/events/islamitlyashev/",
+          "title": "Ислам Итляшев",
+          "description": "«Громко играй аппаратура» тур",
+          "dates": [
+            {
+              "start": 1797008400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/islam_base_event.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "tima-ishet-svet",
+          "site_url": "https://base-club.com/events/tima-ishet-svet/",
+          "title": "тима ищет свет",
+          "description": "",
+          "dates": [
+            {
+              "start": 1797181200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/tima_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "cmh",
+          "site_url": "https://base-club.com/events/cmh/",
+          "title": "CMH",
+          "description": "",
+          "dates": [
+            {
+              "start": 1797609600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/cmh_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "omskaya-diskoteka-2",
+          "site_url": "https://base-club.com/events/omskaya-diskoteka-2/",
+          "title": "Омская дискотека",
+          "description": "",
+          "dates": [
+            {
+              "start": 1798218000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/omskaya_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "at-area",
+          "site_url": "https://base-club.com/events/at-area/",
+          "title": "AT AREA: Lil Moshpit, Gemini, Blase, Mirani, Kimmy Gone",
+          "description": "",
+          "dates": [
+            {
+              "start": 1798300800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/at_area_base_event.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "base-metal-fest",
+          "site_url": "https://base-club.com/events/base-metal-fest/",
+          "title": "BASE Метал Фестиваль",
+          "description": "анонс состава скоро",
+          "dates": [
+            {
+              "start": 1798983000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/base_metal_slider_no_lineup-474x563.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "base-punk-fest-27",
+          "site_url": "https://base-club.com/events/base-punk-fest-27/",
+          "title": "BASE Панк Фестиваль",
+          "description": "анонс состава скоро",
+          "dates": [
+            {
+              "start": 1799060400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/base_punk_slider_no_lineup_2-474x563.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "base-birthday-fest-27",
+          "site_url": "https://base-club.com/events/base-birthday-fest-27/",
+          "title": "BASE ДР Фестиваль",
+          "description": "анонс состава скоро",
+          "dates": [
+            {
+              "start": 1799240400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/base_bday_slider_no_lineup-474x563.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        },
+        {
+          "id": "olegmiami",
+          "site_url": "https://base-club.com/events/olegmiami/",
+          "title": "Олег Майами",
+          "description": "Большой концерт",
+          "dates": [
+            {
+              "start": 1804516200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://base-club.com/uploads/oleg_miami_base_event-1720x477.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "BASE",
+            "title": "BASE",
+            "address": "ул. Орджоникидзе, 11, стр. 1",
+            "site_url": "https://base-club.com/"
+          },
+          "source_name": "BASE",
+          "city": "msk",
+          "date_note": "Год восстановлен из раздела предстоящих событий, месяца и дня недели; дата сверяется при каждом обновлении."
+        }
+      ],
+      "complete": true,
+      "url": "https://base-club.com/"
+    },
+    "КРОП Арена": {
+      "results": [
+        {
+          "id": "adrenalinhouse_krd",
+          "site_url": "https://arenahall.info/krd/e/adrenalinhouse_krd/",
+          "title": "ADRENALIN HOUSE",
+          "description": "",
+          "dates": [
+            {
+              "start": 1790866800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/150/bwtrvqsedr0uohooop8nfsgtnlp99kv5.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "pyrokinesis_krd",
+          "site_url": "https://arenahall.info/krd/e/pyrokinesis_krd/",
+          "title": "PYROKINESIS",
+          "description": "",
+          "dates": [
+            {
+              "start": 1791129600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/263/df0qjoyipoolfj06x5rwoolats2kvc6i.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2500 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "burito_krd",
+          "site_url": "https://arenahall.info/krd/e/burito_krd/",
+          "title": "BURITO",
+          "description": "",
+          "dates": [
+            {
+              "start": 1791651600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/fc8/p44yi8dz43baqvopqanzp6ps01zl1cef.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2500 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "gudtayms_krd",
+          "site_url": "https://arenahall.info/krd/e/gudtayms_krd/",
+          "title": "ГУДТАЙМС",
+          "description": "",
+          "dates": [
+            {
+              "start": 1791734400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/34e/u9huvef6pje1sqyv0bz1tby8s0tx6nj6.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "catharsis_krd",
+          "site_url": "https://arenahall.info/krd/e/catharsis_krd/",
+          "title": "СATHARSIS, ЧЕРНЫЙ ОБЕЛИСК, АНГЕЛ-ХРАНИТЕЛЬ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792256400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/896/lw6c8n94t2w45qqibt0ihkubnkldz6ew.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2700 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "dk_krd",
+          "site_url": "https://arenahall.info/krd/e/dk_krd/",
+          "title": "DK",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792425600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/837/4l1z2itzshoo6ndv7d3izrdyytlhxn13.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "yanix_krd",
+          "site_url": "https://arenahall.info/krd/e/yanix_krd/",
+          "title": "YANIX",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792774800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/bd0/03a2213iw7m6q1h45c1bj3ia9rpscu32.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "distemper_krd",
+          "site_url": "https://arenahall.info/krd/e/distemper_krd/",
+          "title": "DISTEMPER",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792861200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/9fa/it9omt17jvkd61l25v680m6e61rd1ya8.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 1500 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "lumen_krd",
+          "site_url": "https://arenahall.info/krd/e/lumen_krd/",
+          "title": "LUMEN",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793034000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/afc/f8sfeu1kr6v3g18lhq4o0ysi8iy6nbf8.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2500 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "martin_krd",
+          "site_url": "https://arenahall.info/krd/e/martin_krd/",
+          "title": "МАРТИН",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793379600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/8da/a3q4dkemsjit07d0033txk87szffx5c3.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2200 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "amatory_krd",
+          "site_url": "https://arenahall.info/krd/e/amatory_krd/",
+          "title": "AMATORY",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793466000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/073/jntfzbikan3wjqciedwc1o33nvxy0wgx.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2200 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "yorsh_krd",
+          "site_url": "https://arenahall.info/krd/e/yorsh_krd/",
+          "title": "ЙОРШ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793635200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/034/z4992nlmzxjgyghs9hca27qpoc6wb262.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 1800 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "gonefludd_krd",
+          "site_url": "https://arenahall.info/krd/e/gonefludd_krd/",
+          "title": "GONE.Fludd",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793725200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/c52/qaz9i2htnc0auohwk1wcroiuebq9am33.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 3200 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "deadblonde_krd",
+          "site_url": "https://arenahall.info/krd/e/deadblonde_krd/",
+          "title": "DEAD BLONDE",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793984400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/53a/ji77nk4m7mq7wzalwuggvheadzcqbo6k.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2300 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "sektorgaza_krd",
+          "site_url": "https://arenahall.info/krd/e/sektorgaza_krd/",
+          "title": "СЕКТОР ГАЗА",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794067200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/407/vtm04ieokjrsggv201jmwwyspd1mm82k.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 3000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "boulevard_krd",
+          "site_url": "https://arenahall.info/krd/e/boulevard_krd/",
+          "title": "BOULEVARD DEPO",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794157200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/837/xb7okl5moebkbykafcw577i0vjbvegth.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 3000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "ksb_krd",
+          "site_url": "https://arenahall.info/krd/e/ksb_krd/",
+          "title": "KSB MUZIC",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794326400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/1ee/ukykbqywnoua8jmihew5fvcn3l2z7u3o.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 1800 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "nigativ_krd",
+          "site_url": "https://arenahall.info/krd/e/nigativ_krd/",
+          "title": "НИГАТИВ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794675600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/77c/sfwh9k359bdq0007xtblivyz7qo3ltga.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2500 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "krimbit_krd",
+          "site_url": "https://arenahall.info/krd/e/krimbit_krd/",
+          "title": "КРИМИНАЛЬНЫЙ БИТ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794762000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/409/7702iu5xchsbz9vb1ihp4z44m1a5528s.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "w24_krd",
+          "site_url": "https://arenahall.info/krd/e/w24_krd/",
+          "title": "W24",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794931200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/d77/u73fzxhbgx3bufgmxc4z3bn0j8mgbr5x.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2800 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "13karat_krd",
+          "site_url": "https://arenahall.info/krd/e/13karat_krd/",
+          "title": "ТРИНАДЦАТЬ КАРАТ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795366800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/b00/bmcpx9lw2kngquu96c42gy5h9fur0701.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "hollyflame_krd",
+          "site_url": "https://arenahall.info/krd/e/hollyflame_krd/",
+          "title": "HOLLYFLAME",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795712400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/7d7/tvb6sgy5v5wfq0fb2sc5lmfvouyjrnl6.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2500 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "nagart_krd",
+          "site_url": "https://arenahall.info/krd/e/nagart_krd/",
+          "title": "NAGART",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795885200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/da3/9k3kwbya4xlqk936lqyr7u9qvbj13g53.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 1800 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "xcho_krd",
+          "site_url": "https://arenahall.info/krd/e/xcho_krd/",
+          "title": "XCHO",
+          "description": "",
+          "dates": [
+            {
+              "start": 1796230800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/6bc/okwbfm30bvgq4vimdn7sx2mpgwwce1wm.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2200 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "papinolimpos_krd",
+          "site_url": "https://arenahall.info/krd/e/papinolimpos_krd/",
+          "title": "ПАПИН ОЛИМПОС",
+          "description": "",
+          "dates": [
+            {
+              "start": 1796400000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/1e9/0h97c04ibwv4qqrsj4wja0bmoj2p68x5.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 1800 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "mukka_krd",
+          "site_url": "https://arenahall.info/krd/e/mukka_krd/",
+          "title": "МУККА",
+          "description": "",
+          "dates": [
+            {
+              "start": 1796490000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/735/t4v52wo2w3xijr4r27g323um25ga2aui.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 1800 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "bond_krd",
+          "site_url": "https://arenahall.info/krd/e/bond_krd/",
+          "title": "БОНД С КНОПКОЙ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1796576400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/b5a/z25yncu9zwy8v5exyligg4w9urki2qln.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "onyx_krd",
+          "site_url": "https://arenahall.info/krd/e/onyx_krd/",
+          "title": "ONYX",
+          "description": "",
+          "dates": [
+            {
+              "start": 1796835600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/585/1y2lzrrwyfkzbd37j22bb70j27lmerel.webp"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 3000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "gazan_krd",
+          "site_url": "https://arenahall.info/krd/e/gazan_krd/",
+          "title": "GAZAN",
+          "description": "",
+          "dates": [
+            {
+              "start": 1797091200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/b0f/yj8pzsk0doouz211e9t06pwt0zpsmb3s.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 1600 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "chestnyy_krd",
+          "site_url": "https://arenahall.info/krd/e/chestnyy_krd/",
+          "title": "ЧЕСТНЫЙ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1797613200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/c4e/xp1v9bud6izdy6p4pkpdbqs4t6q6ztqs.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2400 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "svik_krd",
+          "site_url": "https://arenahall.info/krd/e/svik_krd/",
+          "title": "ЛЕША СВИК",
+          "description": "",
+          "dates": [
+            {
+              "start": 1797696000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/c1f/r0k840vi0i06f03j347bmvuzyww6dl9z.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 2500 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "pepelnahudi_krd",
+          "site_url": "https://arenahall.info/krd/e/pepelnahudi_krd/",
+          "title": "PEPEL NAHUDI",
+          "description": "",
+          "dates": [
+            {
+              "start": 1802451600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/7d9/nmiq0fqxapndci6wef2mmqmk9mntdlrl.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 890 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        },
+        {
+          "id": "smeshband_krd",
+          "site_url": "https://arenahall.info/krd/e/smeshband_krd/",
+          "title": "СМЕШBAND",
+          "description": "",
+          "dates": [
+            {
+              "start": 1803830400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://arenahall.info/upload/iblock/0b2/a7znm5vkmd9xdma1dmky0d5h8x7gbpic.webp"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": "от 3000 рублей",
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "КРОП Арена",
+            "title": "КРОП Арена",
+            "address": "ул. Путевая, 5/1",
+            "site_url": "https://arenahall.info/krd/"
+          },
+          "source_name": "КРОП Арена",
+          "city": "krd"
+        }
+      ],
+      "complete": true,
+      "url": "https://arenahall.info/krd/"
+    },
+    "VK Stadium": {
+      "results": [
+        {
+          "id": "xcho_2026",
+          "site_url": "https://vk-stadium.ru/xcho_2026",
+          "title": "XCHO",
+          "description": "",
+          "dates": [
+            {
+              "start": 1791738000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3639-3763-4239-a431-336439373163/376376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "karaoke_sinteza_orchestra",
+          "site_url": "https://vk-stadium.ru/karaoke_sinteza_orchestra",
+          "title": "Караоке с оркестром Sinteza Orchestra",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792083600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3036-6634-4965-b664-323936623536/376376.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "6+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "trancemission_portal",
+          "site_url": "https://vk-stadium.ru/trancemission_portal",
+          "title": "Трансмиссия \"Портал\"",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792177200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3962-6234-4363-b765-656533646234/376x376.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "18+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "cupsize",
+          "site_url": "https://vk-stadium.ru/cupsize",
+          "title": "CUPSIZE",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792342800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3335-6130-4461-b862-653939633965/376_x_376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "navai",
+          "site_url": "https://vk-stadium.ru/navai",
+          "title": "NAVAI",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792688400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild6232-3165-4635-a263-316463316539/376_376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "catharsis_cherny_obelisk",
+          "site_url": "https://vk-stadium.ru/catharsis_cherny_obelisk",
+          "title": "СATHARSIS vs ЧЕРНЫЙ ОБЕЛИСК",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792767600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3735-3032-4566-b563-633861626530/CATH_BO_MSK_1080x108.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "pnevmoslon_prez_alboma",
+          "site_url": "https://vk-stadium.ru/pnevmoslon_prez_alboma",
+          "title": "ПНЕВМОСЛОН",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792861200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3539-3532-4233-a361-373962343861/376x376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "18+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "alena_shvets",
+          "site_url": "https://vk-stadium.ru/alena_shvets",
+          "title": "Алёна Швец",
+          "description": "",
+          "dates": [
+            {
+              "start": 1792945800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3864-6164-4131-a637-356665373532/376376.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "yorsh",
+          "site_url": "https://vk-stadium.ru/yorsh",
+          "title": "ЙОРШ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793376000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3265-3437-4439-b037-613563633634/yorsh_376x376.jpeg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "pirate_station_ragnarok",
+          "site_url": "https://vk-stadium.ru/pirate_station_ragnarok",
+          "title": "Пиратская Станция РАГНАРЁК RAGNARÖK",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793473200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3930-3865-4765-b634-323666363037/1080x1080.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "18+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "kyok_2026",
+          "site_url": "https://vk-stadium.ru/kyok_2026",
+          "title": "KYOK",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793545200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3332-3130-4539-a665-663065396463/376__376_px_.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "niletto",
+          "site_url": "https://vk-stadium.ru/niletto",
+          "title": "NILETTO",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793808000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3836-6130-4133-b833-346530613761/376376_.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "cream_soda_2026",
+          "site_url": "https://vk-stadium.ru/cream_soda_2026",
+          "title": "Cream Soda",
+          "description": "",
+          "dates": [
+            {
+              "start": 1793984400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3637-3163-4133-a636-393030313330/noroot.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "martin",
+          "site_url": "https://vk-stadium.ru/martin",
+          "title": "МАРТИН",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794070800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3761-3133-4139-a363-353438323363/376x376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "premia_zvezdi_haipa",
+          "site_url": "https://vk-stadium.ru/premia_zvezdi_haipa",
+          "title": "III Церемония вручения национальной премии блогеров \"Звезды Хайпа\"",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794499200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3865-3661-4635-b435-616136353532/VK_STADIUM__376__376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "vecherinka_43",
+          "site_url": "https://vk-stadium.ru/vecherinka_43",
+          "title": "ВЕЧЕРИНКА 4.3",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794592800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild6636-3739-4234-b134-326235376336/10801080_2.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "18+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "nkeeei_uniqe_artem_shilovets",
+          "site_url": "https://vk-stadium.ru/nkeeei_uniqe_artem_shilovets",
+          "title": "NKEEEI, UNIQE, ARTEM SHILOVETS",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794675600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3432-3734-4631-b239-383963366634/Nkeeei-Stadium-376x3.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "zatochka_2026",
+          "site_url": "https://vk-stadium.ru/zatochka_2026",
+          "title": "Заточка",
+          "description": "",
+          "dates": [
+            {
+              "start": 1794762000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3636-6635-4265-a137-613865353364/376x376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "mykka",
+          "site_url": "https://vk-stadium.ru/mykka",
+          "title": "МУККА",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795194000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3961-6231-4531-a264-356363373637/376x376_vk_stadium_0.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "tanci_minus_2026",
+          "site_url": "https://vk-stadium.ru/tanci_minus_2026",
+          "title": "ТАНЦЫ МИНУС",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795280400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild6337-6435-4261-b164-646136366535/1080x1080.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "mona",
+          "site_url": "https://vk-stadium.ru/mona",
+          "title": "MONA",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795366800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3863-3165-4832-b538-346535326261/376x376_vk_stadium_0.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "goodtimes_2026",
+          "site_url": "https://vk-stadium.ru/goodtimes_2026",
+          "title": "ГУДТАЙМС",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795798800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3234-3838-4638-b030-366366613835/__376376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "18+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "dead_blonde_2026",
+          "site_url": "https://vk-stadium.ru/dead_blonde_2026",
+          "title": "DEAD BLONDE",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795878000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild6562-3931-4336-b363-303533323562/376__376_px_deadblon.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "lolita_2026",
+          "site_url": "https://vk-stadium.ru/lolita_2026",
+          "title": "Лолита",
+          "description": "",
+          "dates": [
+            {
+              "start": 1795968000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3238-6638-4836-b364-353834626165/376376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "kard_2026",
+          "site_url": "https://vk-stadium.ru/kard_2026",
+          "title": "KARD",
+          "description": "",
+          "dates": [
+            {
+              "start": 1796317200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild6533-3731-4166-b765-613636393838/IMG_BDD49BA1B0E2-1.jpeg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "dolphin",
+          "site_url": "https://vk-stadium.ru/dolphin",
+          "title": "Дельфин",
+          "description": "",
+          "dates": [
+            {
+              "start": 1796403600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild6330-3266-4137-b539-366430653533/376x376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "sector_gaza_2026",
+          "site_url": "https://vk-stadium.ru/sector_gaza_2026",
+          "title": "СЕКТОР ГАЗА: 30 лет альбому «Газовая Атака». С образом и голосом Юрия Хоя",
+          "description": "",
+          "dates": [
+            {
+              "start": 1796490000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild6135-3239-4661-b136-343430316639/SG2026-376x376.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "18+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "hmyrov",
+          "site_url": "https://vk-stadium.ru/hmyrov",
+          "title": "Хмыров",
+          "description": "",
+          "dates": [
+            {
+              "start": 1796576400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3966-6330-4264-b030-313537653431/376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "boulevard_depo_2026",
+          "site_url": "https://vk-stadium.ru/boulevard_depo_2026",
+          "title": "Boulevard Depo",
+          "description": "",
+          "dates": [
+            {
+              "start": 1797094800
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3932-3266-4139-b465-313966343564/376376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "yulia_savicheva",
+          "site_url": "https://vk-stadium.ru/yulia_savicheva",
+          "title": "Юлия Савичева",
+          "description": "",
+          "dates": [
+            {
+              "start": 1797177600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3165-3936-4361-b032-656664646232/___376376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "smeshband_20_december",
+          "site_url": "https://vk-stadium.ru/smeshband_20_december",
+          "title": "СмешBand",
+          "description": "",
+          "dates": [
+            {
+              "start": 1797786000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3038-6263-4662-b062-613766336431/376x376_vk_stadium_0.jpeg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "ak_47_tgk",
+          "site_url": "https://vk-stadium.ru/ak_47_tgk",
+          "title": "АК-47 х ТГК",
+          "description": "",
+          "dates": [
+            {
+              "start": 1798304400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3438-3631-4661-b638-386532376431/photo.jpeg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "18+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "metal_elka_31",
+          "site_url": "https://vk-stadium.ru/metal_elka_31",
+          "title": "АРИЯ + CATHARSIS ГЛАВНАЯ METAL-ЁЛКА СТРАНЫ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1798725600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3661-6464-4834-b037-663230343433/NewYear2027_LOGO_QUA.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "metal_elka_2027",
+          "site_url": "https://vk-stadium.ru/metal_elka_2027",
+          "title": "ГЛАВНАЯ METAL-ЁЛКА СТРАНЫ",
+          "description": "",
+          "dates": [
+            {
+              "start": 1798812000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3661-6464-4834-b037-663230343433/NewYear2027_LOGO_QUA.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "tatu",
+          "site_url": "https://vk-stadium.ru/tatu",
+          "title": "т.А.Т.у",
+          "description": "",
+          "dates": [
+            {
+              "start": 1799082000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3737-3832-4135-b239-306461353431/noroot.png"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "paul_van_dyk_2027",
+          "site_url": "https://vk-stadium.ru/paul_van_dyk_2027",
+          "title": "PAUL VAN DYK",
+          "description": "",
+          "dates": [
+            {
+              "start": 1799179200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3263-6266-4661-b037-373739343930/VK_STADIUM_376376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "18+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "knyazz_master_kukol",
+          "site_url": "https://vk-stadium.ru/knyazz_master_kukol",
+          "title": "КняZz",
+          "description": "",
+          "dates": [
+            {
+              "start": 1801328400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3662-3466-4331-b164-346462653037/376x376_.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "pizza",
+          "site_url": "https://vk-stadium.ru/pizza",
+          "title": "PIZZA",
+          "description": "",
+          "dates": [
+            {
+              "start": 1804350600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3861-3662-4830-b061-326331623634/376_x_376.jpeg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "beautiful_boys",
+          "site_url": "https://vk-stadium.ru/beautiful_boys",
+          "title": "Beautiful Boys",
+          "description": "",
+          "dates": [
+            {
+              "start": 1804957200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild6363-6436-4734-b363-333064336362/vk_2.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "gradusi",
+          "site_url": "https://vk-stadium.ru/gradusi",
+          "title": "Градусы",
+          "description": "",
+          "dates": [
+            {
+              "start": 1805475600
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild6661-3062-4533-b935-643666646136/Gradusy2026Stadium_s.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "pepel_nahudi_2027",
+          "site_url": "https://vk-stadium.ru/pepel_nahudi_2027",
+          "title": "Pepel Nahudi",
+          "description": "",
+          "dates": [
+            {
+              "start": 1806764400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3464-6237-4635-b165-373034653137/376x376_.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "gorshenev_kukriniksy",
+          "site_url": "https://vk-stadium.ru/gorshenev_kukriniksy",
+          "title": "ГОРШЕНЕВ с симфоническим оркестром: «КУКРЫНИКСЫ. ХХХ лет»",
+          "description": "",
+          "dates": [
+            {
+              "start": 1807981200
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3365-3561-4639-b863-633766643138/376376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "andrey_katikov",
+          "site_url": "https://vk-stadium.ru/andrey_katikov",
+          "title": "Андрей Катиков",
+          "description": "",
+          "dates": [
+            {
+              "start": 1808586000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3136-3338-4163-a236-363464616134/376376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "12+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "rock_privet",
+          "site_url": "https://vk-stadium.ru/rock_privet",
+          "title": "Rock Privet",
+          "description": "",
+          "dates": [
+            {
+              "start": 1810314000
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3239-3664-4137-a233-646361313737/376x376px.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        },
+        {
+          "id": "thomas_mraz",
+          "site_url": "https://vk-stadium.ru/thomas_mraz",
+          "title": "Thomas Mraz",
+          "description": "",
+          "dates": [
+            {
+              "start": 1810400400
+            }
+          ],
+          "images": [
+            {
+              "image": "https://static.tildacdn.com/tild3965-3436-4430-b937-353861626264/376376.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": "16+",
+          "place": {
+            "id": "VK Stadium",
+            "title": "VK Stadium",
+            "address": "Ленинградский проспект, 80, корп. 17",
+            "site_url": "https://vk-stadium.ru/"
+          },
+          "source_name": "VK Stadium",
+          "city": "msk",
+          "date_note": "Год из адреса события либо ближайшего года предстоящей афиши; день недели проверен."
+        }
+      ],
+      "complete": true,
+      "url": "https://vk-stadium.ru/"
+    },
+    "StandUp Cafe": {
+      "results": [
+        {
+          "id": "14fa6fa18146c094003ddbb1",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Improcats",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790697600,
+              "price": "от 550 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-25_20-34-45.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "7078d3788474c630afd72a66",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "«Без подробностей»",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790697600,
+              "price": "от 600 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-22_01-59-23.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "b5e87d3b9650f3728c28c44f",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "СУПЕРпроверка комиков с ТВ",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790699400,
+              "price": "от 590 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1790706600,
+              "price": "от 590 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1790785800,
+              "price": "от 590 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1790793000,
+              "price": "от 501 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1790872200,
+              "price": "от 590 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1790953800,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1790960400,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791032400,
+              "price": "от 690 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791039600,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791046800,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791124200,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791129600,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791138600,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791217800,
+              "price": "от 590 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791225000,
+              "price": "от 590 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791302400,
+              "price": "от 510 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791311400,
+              "price": "от 510 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791388800,
+              "price": "от 510 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791397800,
+              "price": "от 590 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791475200,
+              "price": "от 501 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791484200,
+              "price": "от 590 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791558600,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791565200,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791637200,
+              "price": "от 690 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791644400,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791651600,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791729000,
+              "price": "от 750 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791743400,
+              "price": "от 750 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-13_21-48-59.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "32a864876971aa2dfb3cae82",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Сплетни",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790706600,
+              "price": "от 3000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-11_14-44-06.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "61c7df072822d6337e590e36",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Никита Шевчук, Егор Свирский, Ярослава Тринадцатко, Елена...",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790784000,
+              "price": "от 1500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/08/photo_2026-08-25_13-40-07.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "403147d05053dc5c41d33134",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Открытый микрофон",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790793000,
+              "price": "от 500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-17_21-23-37.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "463eac7e351144f7a6960c41",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Риэлторский стендап",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790870400,
+              "price": "от 2000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-09_15-14-40.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "5434b0cfc2188af3010da1a4",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "СУПЕР проверка комиков с ТВ",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790879400,
+              "price": "от 590 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-09_13-46-34.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "224c3aa63c91192be012abbd",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Бухгалтерский стендап",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790879400,
+              "price": "от 2500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/08/IMG_20260816_005658_568.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "510a0d4b7004567a2337fc98",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Бизнес стендап",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790956800,
+              "price": "от 3500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/IMG_20260905_020748_172.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "f10bb2706336637b89cd8e63",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Найка Казиева и Виктория Македонская",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1790965800,
+              "price": "от 1500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-17_21-30-46.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "81684bf31f2083c65d3be43f",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Atomic Cellos. Мировые рок-хиты на виолончелях",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791036000,
+              "price": "от 1200 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791122400,
+              "price": "от 1200 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791640800,
+              "price": "от 1200 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791727200,
+              "price": "от 1200 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1792245600,
+              "price": "от 1200 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1792332000,
+              "price": "от 1200 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1792850400,
+              "price": "от 1200 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1792936800,
+              "price": "от 1200 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1793455200,
+              "price": "от 1200 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2024/06/Atomiki3-2-2-2-2.jpg"
+            }
+          ],
+          "categories": [
+            "concert"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "007eea9eecf10365650acb4e",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Стендап концерт. Съемка",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791043200,
+              "price": "от 600 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1791052200,
+              "price": "от 600 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-17_22-01-05.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "55dc171e9fc115693bc26b25",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Дмитрий Махмудов. Импровизация с залом",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791131400,
+              "price": "от 700 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/08/IMG_20260816_010543_320.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "f019583773a37394355cf229",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Ивент. Прожарка",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791216000,
+              "price": "от 777 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-22_02-13-23.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "0dbf1955da08c67b5142ab38",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Благотворительный стендап концерт",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791225000,
+              "price": "от 650 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/sajt_blagotvoritelnyj_koncert_1.png"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "c55e5949e14ecab318087fe0",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Комедия в моменте",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791304200,
+              "price": "от 800 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-09_13-40-13.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "1793a122d971767e43e250d6",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Импровизация с залом «Два Рубена»",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791311400,
+              "price": "от 500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-22_01-46-10.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "2299d126bba534258af9ed40",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "HR стендап",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791475200,
+              "price": "от 2000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-13_19-29-44.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "bcbf4d16857cb31007740c8b",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Открытый микрофон от Смехосоматики",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791570600,
+              "price": "от 1000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-18_00-48-48.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "5ceba7faf6d01aabb8ec7652",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Стендап и рок-хиты на струнных",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791648000,
+              "price": "от 1190 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1792252800,
+              "price": "от 1190 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1792857600,
+              "price": "от 1190 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1793376000,
+              "price": "от 1190 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-22_15-54-55.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "5373549ad6dfe3edf6248061",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Расул Чабдаров",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791657000,
+              "price": "от 2500 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1792348200,
+              "price": "от 2500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/07/photo_2026-07-16_00-34-42.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "18d4b4ffd00eb558d72c09af",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Хетаг Хугаев",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791734400,
+              "price": "от 2500 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1792261800,
+              "price": "от 2500 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1793462400,
+              "price": "от 2500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/07/photo_2026-07-16_00-43-48.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "bcc602d570b1468dcce842e6",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Сольный стендап концерт. Андрей Серебренников",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791736200,
+              "price": "от 1000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/06/photo_2026-09-17_21-42-44.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "1db0e2a9a034be3e1a6d08a3",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Собесы",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791743400,
+              "price": "от 500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-09_15-02-21.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "d0b99aa75108ae0454e5e19f",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Мы так думаем",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1791916200,
+              "price": "от 500 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-18_00-31-18.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "fc2407af5f281b053f376136",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Стендап концерт. Шушанна Бабелян",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1792166400,
+              "price": "от 900 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-18_00-16-08.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "ac1f46286623c57203a8e738",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Самвел Кафьян",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1792339200,
+              "price": "от 990 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-09_13-15-24.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "064e17936efb313578a22992",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Проверочный концерт. Сергей Зорик",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1792521000,
+              "price": "от 1000 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1795710600,
+              "price": "от 1000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-18_01-01-25.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "6969263017510fe73ec80ebe",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Стендап концерт Игоря Пименова",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1792684800,
+              "price": "от 1100 рублей",
+              "is_free": false
+            },
+            {
+              "start": 1792693800,
+              "price": "от 1100 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/08/IMG_20260830_213436_092.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "d9eb3ec49d1b64adadfc5fe8",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "«Мужская раздевалка»",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1792782000,
+              "price": "от 1000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-22_15-44-33.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "fcbf83928fbee1e19d2df328",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "«А Вы любите розы»?",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1792866600,
+              "price": "от 1000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-18_00-41-05.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "465e8b58d47a13ad7c7ce579",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Найка Казиева, Вика Македонская и Катя Котофеева",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1792944000,
+              "price": "от 1800 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-17_21-39-18.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "aed9104ee5593ed7ee034ac7",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Богдан Лисевский",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1793212200,
+              "price": "от 1800 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-22_01-52-17.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "315da0958e77df4f45c7fb8b",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Бьюти стендап",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1793894400,
+              "price": "от 3000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/08/IMG_20260830_212928_485.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "a42dcac12cecdd5fdb600ea1",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Стендап концерт. Леван Табарокишвили",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1795365000,
+              "price": "от 1000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/09/photo_2026-09-25_20-30-11.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        },
+        {
+          "id": "a2e9d743e143c287f57df7ad",
+          "site_url": "https://standupcafe.ru/events",
+          "title": "Егор Свирский",
+          "description": "Программа площадки StandUp Cafe. Выберите дату в афише источника.",
+          "dates": [
+            {
+              "start": 1798309800,
+              "price": "от 2000 рублей",
+              "is_free": false
+            }
+          ],
+          "images": [
+            {
+              "image": "https://standupcafe.ru/wp-content/uploads/2026/08/photo_2026-08-26_13-01-01.jpg"
+            }
+          ],
+          "categories": [
+            "stand-up"
+          ],
+          "price": null,
+          "is_free": false,
+          "age_restriction": null,
+          "place": {
+            "id": "standup-cafe",
+            "title": "StandUp Cafe",
+            "site_url": "https://standupcafe.ru/"
+          },
+          "city": "msk",
+          "source_name": "StandUp Cafe",
+          "date_note": "Год ближайшего предстоящего календарного события; источник публикует месяц и число."
+        }
+      ],
+      "complete": true,
+      "url": "https://standupcafe.ru/events"
+    }
+  }
+}

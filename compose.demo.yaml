@@ -1,0 +1,16 @@
+services:
+  api:
+    environment:
+      APP_ENV: development
+      DEMO_MODE: "true"
+      LLM_ENABLED: ${LLM_ENABLED:-false}
+      PUBLIC_APP_URL: http://localhost:8080
+  worker:
+    environment:
+      APP_ENV: development
+      DEMO_MODE: "true"
+      LLM_ENABLED: ${LLM_ENABLED:-false}
+  catalog:
+    environment:
+      APP_ENV: development
+      DEMO_MODE: "true"

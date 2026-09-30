@@ -1,0 +1,97 @@
+[
+  {
+    "type": "event",
+    "object": {
+      "id": 4020234,
+      "title": "The Beatles Festival",
+      "slug": "the-beatles-festival_2026-10-10",
+      "urlSlug": "koncert/klub-base/the-beatles-festival_2026-10-10",
+      "url": "https://msk.kassir.ru/koncert/klub-base/the-beatles-festival_2026-10-10",
+      "beginsAt": "2026-10-10T17:00:00+00:00",
+      "endsAt": "2026-10-10T23:00:00+00:00",
+      "dateRange": {
+        "beginsAt": "2026-10-10T17:00:00+00:00",
+        "endsAt": "2026-10-10T23:00:00+00:00"
+      },
+      "priceRange": {
+        "min": 2500,
+        "max": 2500
+      },
+      "posterImage": "https://cdn.kassir.ru/msk/poster/d3/d3abcc4d64a69bf8591ffca202d6005a.jpg",
+      "ageGroup": {
+        "name": "6+"
+      },
+      "isMultiDay": false,
+      "isPushkin": false,
+      "isRamblerKino": false,
+      "hideInSearch": false,
+      "needAgeConfirmation": false,
+      "domain": "msk.kassir.ru",
+      "venueName": "Клуб «BASE»",
+      "activity": {
+        "id": 97458,
+        "title": "The Beatles Festival",
+        "slug": "the-beatles-festival",
+        "urlSlug": "koncert/the-beatles-festival",
+        "url": "https://msk.kassir.ru/koncert/the-beatles-festival",
+        "eventIdForSearch": null,
+        "dateRange": null,
+        "priceRange": {
+          "min": null,
+          "max": null
+        },
+        "posterImage": "https://cdn.kassir.ru/msk/poster/1b/1b42f20fcee0e1ccefae774099287011.jpg",
+        "activeEventsCount": 0,
+        "hasEqualEvents": false,
+        "isMultiDay": false,
+        "isPushkin": false,
+        "isRamblerKino": false,
+        "hideInSearch": false,
+        "needAgeConfirmation": false,
+        "domain": "msk.kassir.ru",
+        "ageGroups": [],
+        "promo": [],
+        "venues": [],
+        "cinemaRating": null,
+        "cashback": null,
+        "bonusback": null,
+        "reviewAggregate": null,
+        "interactionStats": null,
+        "marketingLabel": null
+      },
+      "venue": {
+        "name": "Клуб «BASE»",
+        "status": 1,
+        "uri": "/kluby/klub-base",
+        "url": "https://msk.kassir.ru/kluby/klub-base",
+        "address": {
+          "addressString": "г. Москва, ул. Орджоникидзе, д. 11, стр. 1",
+          "city": "Москва"
+        }
+      },
+      "eventPlanners": [
+        {
+          "id": 26843,
+          "title": "ИП Гавашелишвили Вахтанг Сергеевич",
+          "address": null,
+          "phone": null,
+          "description": "",
+          "inn": "262805367979",
+          "ogrn": "317502900035750",
+          "kkmTax": null
+        }
+      ],
+      "promo": [],
+      "cashback": null,
+      "bonusback": null,
+      "reviewAggregate": null,
+      "interactionStats": null,
+      "marketingLabel": null
+    },
+    "advertising": {
+      "organizationName": "ИП Гавашелишвили Вахтанг Сергеевич",
+      "inn": "262805367979",
+      "token": "2Vtzqwnidpx"
+    }
+  }
+]

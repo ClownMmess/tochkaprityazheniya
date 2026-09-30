@@ -1,0 +1,28 @@
+{
+  "version": "1.1.0",
+  "date": "2026-09-29",
+  "backend_tests_passed": 72,
+  "frontend_tests_passed": 4,
+  "postgres_compatible_integration_repeated": 23,
+  "postgres_engine": "PGlite 0.5.8",
+  "docker_compose_tested": false,
+  "browser_scenarios": [
+    "revision-e2e.cjs",
+    "e2e.cjs"
+  ],
+  "browser_status": "passed",
+  "widths_checked": [
+    360,
+    390,
+    1440
+  ],
+  "catalogue": {
+    "msk": 545,
+    "krd": 33
+  },
+  "queries": {
+    "бесплатно": 81,
+    "стендап до 3000": 37,
+    "хочу сводить девушку на свидание на стендап или в театр до 5000": 130
+  }
+}

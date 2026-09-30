@@ -1,0 +1,34 @@
+services:
+  api:
+    environment:
+      APP_ENV: production
+      DEMO_MODE: "false"
+      CATALOG_REFRESH_ENABLED: "true"
+  worker:
+    environment:
+      APP_ENV: production
+      DEMO_MODE: "false"
+      CATALOG_REFRESH_ENABLED: "true"
+  catalog:
+    environment:
+      APP_ENV: production
+      DEMO_MODE: "false"
+      CATALOG_REFRESH_ENABLED: "true"
+  https:
+    image: caddy:2-alpine
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:?Set APP_DOMAIN to your domain without https}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      frontend:
+        condition: service_started
+    restart: unless-stopped
+volumes:
+  caddy_data:
+  caddy_config:
